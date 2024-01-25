@@ -1,0 +1,47 @@
+/* In this rule, I'm setting the default line-height of the body element to 1.5em,  width, a max-width, a min-width, a margin, and a margin-top. */
+body {
+  line-height: 1.5em;
+  width: 75%;
+  max-width: 1400px;
+  min-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* In this rule, I'm setting the default font-size of the p element to 125%. */
+p {
+font-size: 125%;
+}
+
+/* In this rule, I'm setting the article element to a default display of a block and centering it. */
+article {
+  display: block;
+  margin: auto;
+}
+
+/* In this rule, I'm giving the id mainheading a default font-size of -2em. */
+#mainheading {
+  font-size: -2em;
+}
+
+/* In this rule, I'm giving the id aboutMe a default font-size of -2em. */
+#aboutMe {
+  font-size: -2em;
+}
+
+/* In this rule, I'm giving the class subheading a default font-size of -2em. */
+.subheading {
+  font-size: -2em;
+}
+
+/* In this rule, I'm giving the nav ul li a default font-weight of 700, and a default display of inline to make the list horizontal. */
+nav ul li {
+  font-weight: 700;
+  display: inline;
+}
+
+/* In this rule, I'm giving the p::first-letter element a default font-size of 20px, as well as a default font-weight of bold. */
+p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+}

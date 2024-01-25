@@ -1,0 +1,156 @@
+/* In this rule, I'm giving the body element of rgb(14, 13, 13), a background-color of rgb(93, 93, 248), and a line-height of 1.5em. */
+body {
+    color: rgb(14, 13, 13);
+    background-color: rgb(93, 93, 248);
+    line-height: 1.5em;
+}
+
+/* In this rule, I'm giving the class subheading a color of rgb(241, 241, 245), a background-color of rgb(14, 13, 13), a font-family of sans-serif, a border of 2px solid blanchedalmond, normal letter-spacing, and capatilize text-transformation. */
+.subheading {
+    color: rgb(241, 241, 245);
+    background-color: rgb(14, 13, 13);
+    font-family: sans-serif;
+    border: 2px solid blanchedalmond;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+/* In this rule, I'm giving the id aboutMe a color of rgb(241, 241, 245), a background-color of rgb(14, 13, 13), a font-family of sans-serif, a border of 2px solid blanchedalmond, center text-align, normal-letter spacing, and capatilize text-transformation. */
+#aboutMe {
+    color: rgb(241, 241, 245);
+    background-color: rgb(14, 13, 13);
+    font-family: sans-serif;
+    border: 2px solid blanchedalmond;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+/* In this rule, I'm giving the id mainheading a color of rgb(241, 241, 245), a background-color of rgb(14, 13, 13), a font-family of sans-serif, a border of 2px solid blanchedalmond, center text-align, normal letter-spacing, and capatilize text-transformation. */
+#mainheading {
+    color: rgb(241, 241, 245);
+    background-color: rgb(14, 13, 13);
+    font-family: sans-serif;
+    border: 2px solid blanchedalmond;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+/* In this rule, I'm giving the p element a text-indent of 2em, center text-align, a font-family of 'Time New Roman', and a font-style of italic. */
+p {
+    text-indent: 2em;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+/* In this rule, I'm giving the nav ul li element a listy-style-type of none, and a display of inline to make the list horizontal. */
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    border: 2px solid blanchedalmond;
+}
+
+/* In this rule, I'm giving the links a color of white and a text-decortation of none. */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* In this rule, I'm giving a hoverer link a text-decortation of underline. */
+a:hover {
+    text-decoration: underline;
+}
+
+/* In this rule, I'm giving the visited links a color of blanchedalmond. */
+a:visited {
+    color: blanchedalmond;
+}
+
+/* In this rule, I'm giving the table, tr, td, and th elements a border of 2px solid blanchedalmond, font-family of 'Times New Roman',
+text-transform of capitalize, and a font-style of italic. */
+table, tr, td, th {
+    border: 2px solid blanchedalmond;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+/* In this rule, I'm giving the even numbers of the td and th elements a background-color of darkgray. */
+td:nth-child(even), th:nth-child(even) {
+    background-color:darkgray
+}
+
+/* In this rule, I'm giving the tr element and the td element a hover background-color of white. */
+tr:hover, td:hover { 
+    background-color: white;
+}
+
+/* In this rule, I'm giving the footer element a gradient background-color. */
+.footer { 
+    background: linear-gradient(To bottom, #bdc3c7 0%, #2c3e50 100%);
+    
+}
+
+/* In this rule, I'm giving the figure element a width of 30%, a centered text-alignment, a font-style of italic, a normal font-size,
+a text-indent of 0, a margin of 0.5em, and a padding of 0.5em. */
+figure { 
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: normal;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* In this rule, I'm giving the figcaption element a text-shadow of 7px 7px 7px black, and the color of white. */
+figcaption {
+    text-shadow: 7px 7px 7px black;
+    color: white;
+}
+
+/* In this rule, I'm giving the img element a border of 2px solid blanchedalmond, a box-shadow of 5px 5px 5px black, and a border radius of 50%. */
+img {
+    border: 2px solid blanchedalmond;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
+}
+
+input[type="text"], input[type="email"], input[type="birthday"] { 
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type="zip"] {
+    width: 5%;
+}
+
+fieldset {
+    background-color: blanchedalmond;
+    display: block;
+    margin-left: 2px;
+}
+
+legend {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+:required {
+    border-color: #2c3e50;
+}
+
